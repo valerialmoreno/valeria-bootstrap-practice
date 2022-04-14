@@ -24,3 +24,37 @@
 
 // Custom styles:
 
+.container {
+  background-color: #fff;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
+  &.title {
+    background-image: url(../img/pirate-photos/pirate-ship.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+h1 {
+  font-family: 'Cinzel Decorative', cursive; 
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2.2em;
+  text-align: center;
+  background-color: #54a09cec;
+  font-size: 0.875em;
+  p {
+    padding: 0.25em;
+  }
+}

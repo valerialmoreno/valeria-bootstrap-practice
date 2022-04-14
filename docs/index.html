@@ -5,12 +5,71 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Space+Mono&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="article.html">Article</a>
+          <a class="nav-link" href="photos.html">Photos</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
+  <div class="container title">
+    <div id="header" class="text-white text-center p-5">
+      <h1 class="display-1">Ship's Log</h1>
+      <p class="lead">A diary by Capt. Crit 'Red Beard' McGillicutty</p>
+    </div>
+  </div>
+
+  <div class="container p-4">
+    <h2 class="display-5 font-weight-normal">Thar be monsters in the sea</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-3 my-2">
+      <div class="col">
+        <div class="card">
+          <img src="img/pirate-photos/kraken01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Name this Kraken!</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos reiciendis atque voluptatum placeat eum illum illo, nostrum, harum voluptates maxime voluptate vitae asperiores quas, totam at. Saepe deleniti ipsam architecto.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/pirate-photos/kraken02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Name this Kraken!</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, ratione excepturi laudantium laboriosam, eveniet magni animi delectus maxime fugit asperiores dolorum et similique soluta, exercitationem quibusdam saepe officia debitis! Cupiditate.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/pirate-photos/kraken03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Name this Kraken!</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eius, eaque neque reiciendis sequi magni iusto autem sunt culpa, esse explicabo impedit! Fugiat qui temporibus quisquam? Nobis dignissimos quisquam ab.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="footer">Site by Kraken Industries</p>
+  </footer>
+  
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.js"></script>
 </body>
